@@ -1,7 +1,7 @@
 name: update
 on:
   schedule:
-    - cron: '45 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   update-github-name:
     runs-on: ubuntu-latest

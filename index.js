@@ -4,6 +4,8 @@ const getLastDay = function () {
 
 };
 
+console.log('index.js line:7 ->', 'get min');
+
 const opt = {
     url: 'https://api.github.com' + '/repos/beiweiqiang/today-is-2021-03-15',
     method: 'patch',
@@ -15,11 +17,11 @@ const opt = {
     }
 };
 
-axios.request(opt)
-    .then(res => {
-        console.log('index.js line:18 ->', res);
-    })
-    .catch(err => {
-        console.error('index.js line:21 ->', err);
-    });
+// axios.request(opt)
+//     .then(res => {
+//         console.log('index.js line:18 ->', res);
+//     })
+//     .catch(err => {
+//         console.error('index.js line:21 ->', err);
+//     });
 
