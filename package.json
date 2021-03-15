@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/beiweiqiang/today-is-2021-03-15#readme",
   "dependencies": {
-    "@octokit/core": "^3.3.0",
     "axios": "^0.21.1"
   }
 }

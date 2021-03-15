@@ -1,5 +1,4 @@
 const axios = require('axios');
-const { Octokit } = require("@octokit/core");
 
 const getLastDay = function () {
 
