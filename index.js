@@ -5,8 +5,7 @@ const getLastDay = function () {
 };
 
 const opt = {
-    host: 'https://api.github.com',
-    path: '/repos/beiweiqiang/today-is-' + '2021-03-17',
+    url: 'https://api.github.com' + '/repos/beiweiqiang/today-is-' + '2021-03-17',
     method: 'patch',
     data: {
         name: 'today-is-2021-03-15'
