@@ -1,4 +1,4 @@
-name: update-github-name-actions
+name: update
 on:
   schedule:
     - cron: '42 * * * *'
