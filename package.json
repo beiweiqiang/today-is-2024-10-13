@@ -1,0 +1,23 @@
+{
+  "name": "today-is-2021-03-15",
+  "version": "1.0.0",
+  "description": "Yes, the repos name always show today.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beiweiqiang/today-is-2021-03-15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beiweiqiang/today-is-2021-03-15/issues"
+  },
+  "homepage": "https://github.com/beiweiqiang/today-is-2021-03-15#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
