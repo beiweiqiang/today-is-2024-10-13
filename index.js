@@ -5,13 +5,13 @@ const getLastDay = function () {
 };
 
 const opt = {
-    url: 'https://api.github.com' + '/repos/beiweiqiang/today-is-2021-03-17',
+    url: 'https://api.github.com' + '/repos/beiweiqiang/today-is-2021-03-15',
     method: 'patch',
     headers: {
         'Authorization': 'token ' + process.argv[2]
     },
     data: {
-        name: 'today-is-2021-03-15'
+        name: 'today-is-2021-03-16'
     }
 };
 
