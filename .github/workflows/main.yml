@@ -35,4 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - run: npm i
-      - run: node index ${{ secrets.GITHUB_TOKEN }}
+      - run: node index ${{ secrets.MY_TOKEN }}
