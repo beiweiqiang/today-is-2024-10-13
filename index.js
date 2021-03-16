@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const getDay = function () {
     const d = new Date();
-    return `${d.getUTCFullYear()}-${d.getUTCMonth() + 1}-${d.getUTCDay()}`
+    return `${d.getUTCFullYear()}-${d.getUTCMonth() + 1}-${d.getUTCDate()}`
 };
 
 console.log('index.js line:8 ->', getDay());
